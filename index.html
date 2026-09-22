@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <img src="https://i.pravatar.cc/150?img=12" alt="Me" class="avatar">
+        <div class="sidebar-actions">
+          <i class="fas fa-circle-notch"></i>
+          <i class="fas fa-comment-alt"></i>
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+      </div>
+
+      <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search or start new chat" id="searchInput">
+      </div>
+
+      <div class="chat-list" id="chatList">
+        <!-- Chats will be injected by JS -->
+      </div>
+    </div>
+
+    <!-- Chat Area -->
+    <div class="chat-area">
+      <div class="chat-header" id="chatHeader">
+        <img src="https://i.pravatar.cc/150?img=5" alt="" class="avatar" id="headerAvatar">
+        <div class="chat-header-info">
+          <h3 id="headerName">Select a chat</h3>
+          <p id="headerStatus">online</p>
+        </div>
+        <div class="chat-header-actions">
+          <i class="fas fa-search"></i>
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+      </div>
+
+      <div class="messages" id="messages">
+        <div class="welcome">
+          <h2>WhatsApp Web</h2>
+          <p>Send and receive messages without keeping your phone online.</p>
+        </div>
+      </div>
+
+      <div class="message-input">
+        <i class="far fa-smile"></i>
+        <i class="fas fa-paperclip"></i>
+        <input type="text" placeholder="Type a message" id="messageInput" disabled>
+        <button id="sendBtn" disabled><i class="fas fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
