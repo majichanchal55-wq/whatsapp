@@ -1,6 +1,6 @@
 // Sample contacts
 const contacts = [
-  { id: 1, name: "Rahul Sharma", avatar: "https://i.pravatar.cc/150?img=11", lastMsg: "Hey, are you free tomorrow?", time: "10:42" },
+  { id: 1, name: "Rahul Bose", avatar: "https://i.pravatar.cc/150?img=11", lastMsg: "Hey, are you free tomorrow?", time: "10:42" },
   { id: 2, name: "Priya Patel", avatar: "https://i.pravatar.cc/150?img=5", lastMsg: "Sure, see you then!", time: "Yesterday" },
   { id: 3, name: "Amit Kumar", avatar: "https://i.pravatar.cc/150?img=33", lastMsg: "Project files sent", time: "Monday" },
   { id: 4, name: "Sneha Gupta", avatar: "https://i.pravatar.cc/150?img=9", lastMsg: "Happy Birthday 🎉", time: "12/08" },
